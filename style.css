@@ -1,3 +1,4 @@
+/* CSS Pertemuan ke 2 */
 .tokopedia{
     background-color:rgb(211, 224, 21);
     border: 5px solid black;
@@ -18,4 +19,94 @@
     border: 5px solid black;
     padding: 10px;
     margin: 10px;
+}
+
+
+
+/* CSS Pertemuan ke 3 */
+*{
+    font-family: Arial;
+    background-color: rgba(49, 216, 146, 0.877);
+}
+
+/* media query */
+/* Phone device */
+.selection-atas{
+    text-align: center;
+    color: green;
+}
+
+table,th,td{
+    display: block, flex;
+    border: 0;
+}
+
+.selection-bawah{
+    display: flex;
+    justify-content: center;
+}
+
+.selection-data{
+    display: grid;
+    justify-content: flex-start;
+    border: 1px solid black;
+    
+}
+
+.moti{
+    text-align: center;
+    color: green;
+}
+
+.m{
+    text-align: center;
+}
+
+.sekolah, .skill, .orga, .akun{
+    color: green;
+    display: grid;
+    justify-content: flex-start;
+}
+
+/* tablet device sekitar 768px sampai 992px */
+@media(min-width: 768px) and (max-width: 992px){
+    .selection-atas{
+        color: blue;
+    }
+    .sekolah, .skill, .orga, .akun{
+        color: blue;
+    }
+    .moti{
+        color: blue;
+    }
+}
+
+/* CSS cuma ngena di atas 992 */
+/* dekstop device */
+@media(min-width: 922px){
+    table,th,td{
+        border: 1px solid black;
+    }
+    .selection-atas{
+        color: rgba(255, 0, 0, 0.808);
+    }
+
+    .selection-bawah{
+        display: flex;
+        justify-content: start;
+    }
+    .selection-data{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .sekolah, .skill, .orga, .akun{
+        color: rgba(255, 0, 0, 0.808);
+        display: flex;
+        justify-content: start;
+    }
+    .moti{
+        color: rgba(255, 0, 0, 0.808);
+    }
 }
