@@ -24,7 +24,7 @@
 
 
 /* CSS Pertemuan ke 3 */
-*{
+.body{
     font-family: Arial;
     background-color: rgba(49, 216, 146, 0.836);
 }
@@ -108,5 +108,58 @@ table,th,td{
     }
     .moti{
         color: rgba(255, 0, 0, 0.808);
+    }
+}
+
+/* Pertemuan ke 4 */
+.background{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Wooden-floor-and-cemented-wall-cool-hd-wallpaper-best.jpg");
+    background-size: cover;
+    background-position: center;  
+}
+.data{
+    text-align: center;
+    margin: 195px auto;
+    padding: 50px;
+
+}
+.media a{
+    text-decoration: none;
+    color: #0c5baa;
+}
+.btn{
+    background-color: #46ffb2;
+    font-size: 12px;
+}
+
+/* tablet device sekitar 768px sampai 992px */
+@media(min-width: 768px) and (max-width: 992px){
+    .data{
+        display: grid;
+        justify-content: center;
+    }
+    .media a{
+        display: grid;
+        justify-content: center;
+    }
+    .btn{
+        display: grid;
+        justify-content: center;
+    }
+}
+
+/* dekstop device */
+@media(min-width: 922px){
+    .data{
+        display: grid;
+        justify-content: center;
+    }
+    .media a{
+        display: grid;
+        justify-content: center;
+    }
+    .btn{
+        display: grid;
+        justify-content: center;
     }
 }
