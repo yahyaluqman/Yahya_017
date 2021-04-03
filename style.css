@@ -119,9 +119,12 @@ table,th,td{
 }
 .data{
     text-align: center;
-    margin: 195px auto;
+    margin: 128px auto;
     padding: 50px;
 
+}
+h1{
+    font-size: 50px
 }
 .media a{
     text-decoration: none;
